@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+.box {
+    height: 100vh;
+    border: 1px solid black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.argentina {
+    background-image: url('img/baires.jpg');
+}
+
+.budapest {
+    background-image: url('img/budapest_1.jpg');
+}
+
+.paris_1 {
+    background-image: url('img/paris_cafe.jpg');
+}
+
+.paris_2 {
+    background-image: url('img/paris_metro.jpg');
+}
+
+.paris_3 {
+    background-image: url('img/paris_eifel.jpg');
+}
+
+.disneyland {
+    background-image: url('img/disneyland.jpg');
+    background-position: top;
+}
+
+.milan {
+    background-image: url('img/milan.jpg');
+}
+.arrow {
+    display: block;
+    border: solid yellowgreen;
+    border-width: 0 7px 7px 0;
+    display: inline-block;
+    padding: 30px;
+    position: absolute;
+    right: 50%;
+    bottom: 30px;
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
