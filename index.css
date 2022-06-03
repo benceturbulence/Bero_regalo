@@ -14,6 +14,7 @@ body {
 }
 .box {
     height: 100vh;
+    width: 1öö%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -45,7 +46,6 @@ body {
 
 .disneyland {
     background-image: url('img/disneyland.jpg');
-    background-size: contain;
 }
 
 .milan_tag {
