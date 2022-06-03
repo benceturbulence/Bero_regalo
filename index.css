@@ -64,8 +64,7 @@ body {
     display: inline-block;
     padding: 30px;
     position: absolute;
-    right: 50%;
-    transform: translateX(-50%);
+    left: 50%;
     bottom: 30px;
   }
 
