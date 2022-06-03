@@ -76,22 +76,23 @@ body {
 
 .container {
     text-align: center;
-    padding-top: 4rem;
+    padding-top: 1rem;
 }
 
 .svg {
     max-width: 200px;
+    display: block;
+    margin: 0 auto;
 }
 
 h1 {
     font-size: 3rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .main,
 .intro {
     text-align: center;
-    font-size: 1.5rem;
     display: inline-block;
 }
 
@@ -152,4 +153,29 @@ h2 {
 }
 .infobox p {
     font-size: 2rem
+}
+
+.destino .container {
+    padding-top: 4rem ;
+}
+
+.start {
+    background-image: url('img/paper-background.jpg');
+}
+
+.destino .arrow {
+    display: block;
+    border: solid rgba(142, 141, 141, 0.8);
+    border-width: 0 7px 7px 0;
+    display: inline-block;
+    padding: 30px;
+    position: absolute;
+    right: 50%;
+    transform: translateX(-50%);
+    bottom: 30px;
+  }
+
+.destino .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }
