@@ -45,15 +45,15 @@ body {
 
 .disneyland {
     background-image: url('img/disneyland.jpg');
-    background-position: top;
+    background-size: contain;
 }
 
-.milan {
+.milan_tag {
     background-image: url('img/milan.jpg');
 }
 
 .info {
-    background-image: url('img/pinapple.jpg');
+    background-color: azure;
 }
 
 
@@ -66,6 +66,7 @@ body {
     position: absolute;
     left: 50%;
     bottom: 30px;
+    transform: translateX(200%);
   }
 
 .down {
@@ -149,19 +150,36 @@ h2 {
     background-color: rgba(255, 255, 255, .4);
     backdrop-filter: blur(2px);
     width: fit-content;
+    border: 1px solid rgba(0, 255, 555, .7);
 }
 .infobox p {
     font-size: 2rem
 }
 
-.destino .container {
-    padding-top: 4rem ;
+
+
+.destino h1 {
+    font-size: 4rem;
 }
 
-.start {
-    background-image: url('img/paper-background.jpg');
+.destino a {
+    display: block;
 }
 
+.info a img {
+    max-width: 100px;
+}
+.info a,
+.planes a {
+    display: block;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    bottom: 30px;
+}
+
+.white_tag .down,
+.planes .arrow,
 .destino .arrow {
     display: block;
     border: solid rgba(142, 141, 141, 0.8);
@@ -173,8 +191,94 @@ h2 {
     transform: translateX(-50%);
     bottom: 30px;
   }
-
+.white_tag .down,
+.planes .down,
 .destino .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+}
+
+.start {
+    background-color: rgb(251, 226, 230);
+}
+
+.destino {
+    background-color: rgb(189, 247, 247);
+    display: flex;
+    align-items: center;
+    justify-content: center;flex-direction: column;
+}
+
+.destino .container,
+.continuara_tag .container {
+    padding-top: 4rem ;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.destino h1 {
+    font-size: 4rem;
+}
+
+.destino a {
+    display: block;
+}
+
+.planes {
+    background-color: rgb(253, 247, 238);
+}
+
+#tag_1 {
+    background-color: rgb(249, 238, 253);
+}
+
+.last_tag {
+    background-color: rgb(253, 255, 234);
+}
+
+
+/* countdown container */
+
+.countdown {
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.countdown_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.countdown_container span {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-end;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 2.4rem;
+    margin-right: 2rem;
+
+}
+
+.row_2 span {
+    font-size: 1.6rem;
+    align-items: unset;
+    justify-content:first baseline;
+}
+
+.mickey_minie {
+    max-width: 400px;
+    display: block;
+    margin: 20vh auto;
+}
+
+.last_tag .container h1
+.destino .container {
+    padding-top: 4rem ;
+    font-family: 'Cedarville Cursive', cursive;
 }
