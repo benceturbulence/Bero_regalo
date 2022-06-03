@@ -10,6 +10,9 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nuosu+SIL&family=Tai+Heritage+Pro:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
@@ -23,9 +26,16 @@
             </section>
             
             <section class = "box">
-                <h1>Este viaje arranca hoy</h1>
-                <h2>Toca el vuelo para empezarlo</h2>
-                <a href = "#argentina_tag">Vuelo</a>
+                <div class="container">
+                    <h1>Amorch!</h1>
+                    <div class = "intro typed-out">
+                        Esto es tu regalo de cumpleanios.<br>
+
+                        Toca el vuelo para empezarlo
+                    </div>
+                    <h2>Toca el vuelo para empezarlo</h2>
+                    <a href = "#argentina_tag"><img class = "plane_img svg" src ="svg/plane.svg"></a>
+                </div>
             </section>
             
             <section id = "argentina_tag" class="box argentina">
@@ -34,31 +44,46 @@
 
             <section class="box"></section>
             <section id = "budapest_tag" class="box budapest">
-                <a href="#paris_tag_1"><i class="arrow down"></i></a>
+                <a href="#paris_tag"><i class="arrow down"></i></a>
             </section>
 
+           <section class="box"></section>
+
             <section class="box"></section>
+            <section id = "paris_tag" class="box info">
+                <div class="container infobox">
+                    <p>Punto de encuentro: Aeropuerto de Budapest</p>
+                    <p>Comienzo: 2022 agosto 4 19:00</p>
+                    <p>No faltes!</p>
+                </div>
 
+                <a href="#paris_tag_3"><i class="arrow down"></i></a>
+            </section>
 
+            <section class = "half_box"></section>
+
+            <section id = "paris_tag_3" class="box paris_3">
+                <a href="#paris_tag_1"><i class="arrow down"></i></a>
+            </section>
+            
             <section id = "paris_tag_1" class="box paris_1">
                 <a href="#paris_tag_2"><i class="arrow down"></i></a>
             </section>
 
+            <section class = "half_box"></section>
+            
             <section id = "paris_tag_2" class="box paris_2">
-                <a href="#paris_tag_3"><i class="arrow down"></i></a>
-            </section>
-
-            <section id = "paris_tag_3" class="box paris_3">
-                Paris eifel
                 <a href="#disneyland_tag"><i class="arrow down"></i></a>
             </section>
+
+            <section class = "half_box"></section>
 
             <section id = "disneyland_tag" class="box disneyland">
                 <a href="#milan_tag"><i class="arrow down"></i></a>
             </section>
 
             <section class="box"></section>
-            
+
             <section id = "milan_tag" class="box milan">
                 <a href="#planes_tag"><i class="arrow down"></i></a>
             </section>
@@ -66,11 +91,14 @@
             <section class="box"></section>
 
             <section id = "planes_tag" class="box">
-                <h1>Tus ideas y metas</h1>
+                <div class="container">
+                    <h1 class ="headline">Y aca vienen nuestras ideas</h1>
+                    <img class = "svg bird_svg" src="svg/birds.svg" alt="">
+                </div>
             </section>
 
 
-            <section class="box milan"></section>
+            
             
 
         </main>

@@ -9,15 +9,20 @@ html {
     height: 100%;
 }
 
+body {
+    font-family: 'Tai Heritage Pro', serif;
+}
 .box {
     height: 100vh;
-    border: 1px solid black;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
 }
 
+.half_box {
+    height: 50vh;
+}
 .argentina {
     background-image: url('img/baires.jpg');
 }
@@ -46,19 +51,105 @@ html {
 .milan {
     background-image: url('img/milan.jpg');
 }
+
+.info {
+    background-image: url('img/pinapple.jpg');
+}
+
+
 .arrow {
     display: block;
-    border: solid yellowgreen;
+    border: solid rgba(255, 255, 255,.8);
     border-width: 0 7px 7px 0;
     display: inline-block;
     padding: 30px;
     position: absolute;
     right: 50%;
+    transform: translateX(-50%);
     bottom: 30px;
   }
 
-  .down {
+.down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+}
+
+.container {
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.svg {
+    max-width: 200px;
+}
+
+h1 {
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.main,
+.intro {
+    text-align: center;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+
+
+h2 {
+    padding-bottom: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.headline:hover {
+    color: pink;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.typed-out{
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3s steps(50, end) forwards;
+    font-size: 1.6rem;
+    width: 0;
   }
 
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+
+.container p:first-child {
+    padding-top: 4rem;
+}
+
+.container p {
+    padding-bottom: 2rem;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.infobox {
+
+    font-weight: 700;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 4rem auto;
+    padding-top: 0;
+    background-color: rgba(255, 255, 255, .4);
+    backdrop-filter: blur(2px);
+    width: fit-content;
+}
+.infobox p {
+    font-size: 2rem
+}
