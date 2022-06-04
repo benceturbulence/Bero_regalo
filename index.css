@@ -20,7 +20,7 @@ body {
 
 
 .box {
-    height: 100vh;
+    min-height: 100vh;
     padding: 5%;
     padding-bottom: 5%;
     display: flex;
@@ -77,7 +77,7 @@ body {
 
 .second .container .flex img{
     display: block;
-    object-fit: cover;
+
     max-width: 200px;
     width: 40%
 }
@@ -178,6 +178,13 @@ background-color: rgb(209, 255, 255);
     background-position: top; 
 }
 
+.disney {
+    background-image: url('img/mobile/disneyland_mobile.jpg');
+    background-size: cover;
+    background-position: top; 
+}
+
+
 .ninth {
     background-image: url('img/mobile/italy_food.jpg');
     background-size: cover;
@@ -232,3 +239,76 @@ background-color: rgb(209, 255, 255);
 }
 
 
+@media (min-width: 800px) {
+    .fourth {
+        background-image: url('img/desktop/macaron_dektop.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .fifth {
+        background-image: url('img/desktop/france_food.jpg');
+        background-size: cover;
+        background-position: center; 
+    }
+    
+    .sixth {
+        background-image: url('img/desktop/louvre_desktop.jpg');
+        background-size: cover;
+        background-position: center; 
+    }
+    
+    .seventh {
+        background-image: url('img/desktop/eifel_desktop.jpg');
+        background-size: cover;
+        background-position: center; 
+    }
+    
+    .disney {
+        background-image: url('img/desktop/disneyland_desktop.jpg');
+        background-size: cover;
+        background-position: center; 
+    }
+    
+    
+    .ninth {
+        background-image: url('img/desktop/italy_food_dekstop.jpg');
+        background-size: cover;
+        background-position: center; 
+    }
+    
+    .tenth {
+        background-image: url('img/desktop/italy_street_desktop.jpg');
+        background-size: cover;
+        background-position: center; 
+    }
+    
+    .eleventh {
+        background-image: url('img/desktop/milan_desktop.jpg');
+        background-size: cover;
+        background-position: top; 
+    }
+    
+    .twelveth {
+        background-image: url('img/desktop/milan_desktop_2.jpg');
+        background-size: cover;
+        background-position: top; 
+    }
+    
+    .thirteenth {
+        background-image: url('img/mobile/venice_mobile_blurred.jpg');
+        background-size: cover;
+        background-position: center; 
+    }
+    
+    .fourteenth {
+        background-color: azure;
+    }
+    
+    .fifteenth {
+        background-image: url('img/png/sunstar.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
