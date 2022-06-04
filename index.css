@@ -238,7 +238,7 @@ background-color: rgb(209, 255, 255);
     transform: rotate(180deg);
 }
 
-
+/*
 @media (min-width: 800px) {
     .fourth {
         background-image: url('img/desktop/macaron_dektop.jpg');
@@ -312,3 +312,6 @@ background-color: rgb(209, 255, 255);
         background-position: center;
     }
 }
+
+
+*/
